@@ -165,7 +165,7 @@ class Factory implements FactoryContract
      * @param  string  $empty
      * @return string
      */
-    public function renderEach($view, $data, $iterator, $empty = 'raw|')
+    public function renderEach($iterator, $data, $view, $empty = 'raw|')
     {
         $result = '';
 
